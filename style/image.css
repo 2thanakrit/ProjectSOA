@@ -1,0 +1,10 @@
+.image-container {
+    width: 30px; /* Set the width of the container */
+    height: 20px; /* Set the height of the container */
+    border: 1px solid black; /* Optional: Add a border for visual clarity */
+    overflow: hidden; /* Optional: Hide any overflow if the image exceeds the container */
+}
+.image-container img {
+    max-width: 100%; /* Set the maximum width of the image to 100% of the container width */
+    height: auto; /* Allow the height to adjust automatically to maintain aspect ratio */
+}
